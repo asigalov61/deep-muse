@@ -6,6 +6,10 @@
 
 ***
 
+## Advanced Text-to-Music Generator Implementation
+
+***
+
 ## Inspired by deep-daze: https://github.com/lucidrains/deep-daze
 
 ***
