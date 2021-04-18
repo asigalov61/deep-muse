@@ -18,7 +18,7 @@
 
 [![Open In Colab][colab-badge]][colab-notebook]
 
-[colab-notebook]: https://github.com/asigalov61/deep-muse/blob/main/deep_muse.ipynb
+[colab-notebook]: <https://github.com/asigalov61/deep-muse/blob/main/deep_muse.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 
 ***
