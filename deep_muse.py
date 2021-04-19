@@ -125,7 +125,7 @@ lyric5 = 'I am all out of love I am so lost without you' #@param {type:"string"}
 lyric6 = 'I know you were right believing for so long' #@param {type:"string"}
 lyric7 = 'I am all out of love what am I without you' #@param {type:"string"}
 lyric8 = 'I cant be too late to say that I was so wrong' #@param {type:"string"}
-minimum_notes_pitch_baseline = 75 #@param {type:"slider", min:22, max:127, step:1}
+minimum_notes_pitch_baseline = 70 #@param {type:"slider", min:22, max:127, step:1}
 minimum_notes_duration_baseline = 200 #@param {type:"slider", min:100, max:2000, step:100}
 
 txt = '| ' + lyric1 + ' | ' + lyric2 + ' | ' + lyric3 + ' | ' + lyric4 + ' | ' + lyric5 + ' | ' + lyric6 + ' | ' + lyric7 + ' | ' + lyric8 + ' |'
@@ -233,10 +233,8 @@ Audio(str(fname + '.wav'), rate=16000)
 #@title Download Fuzzy Chords Dataset
 # %cd /content/
 
-# Melody-ABC-Tunes-Dataset-CC-BY-NC-SA
-!wget https://github.com/asigalov61/tegridy-tools/raw/main/tegridy-data/Fuzzy-Chords-Dataset.zip
+!wget --no-check-certificate -O Fuzzy-Chords-Dataset.zip "https://onedrive.live.com/download?cid=8A0D502FC99C608F&resid=8A0D502FC99C608F%2118481&authkey=AKE0S57SHzG0rr8"
 !unzip -j Fuzzy-Chords-Dataset.zip
-!rm Fuzzy-Chords-Dataset.zip
 
 # %cd /content/
 
@@ -248,7 +246,7 @@ full_path_to_processed_dataset = "/content/Fuzzy-Chords-Dataset" #@param {type:"
 cho_list_f, mel_list_f = TMIDI.Tegridy_Pickle_File_Loader(full_path_to_processed_dataset)
 
 #@title Generate chords
-minimum_notes_per_chord = 3 #@param {type:"slider", min:1, max:10, step:1}
+minimum_notes_per_chord = 7 #@param {type:"slider", min:1, max:10, step:1}
 
 print('Generating chords for the melody. Please wait...')
 print('Sorting chords...')
