@@ -21,14 +21,6 @@
 [colab-notebook]: <https://colab.research.google.com/github/asigalov61/deep-muse/blob/main/deep_muse.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 
-### TODO:
-
-### 1) [DONE] Integrate FuzzyWuzzy
-
-### 2) [DONE] Improve statistics dictionary
-
-### 3) [DONE] Extend statistics dictionary
-
 ***
 
 ### Exclusive rendered samples: https://soundcloud.com/aleksandr-sigalov-61/sets/deep-muse/s-tgbZAXvRlaH
