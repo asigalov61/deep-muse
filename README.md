@@ -23,11 +23,11 @@
 
 ### TODO:
 
-### 1) Integrate FuzzyWuzzy
+### 1) [DONE] Integrate FuzzyWuzzy
 
-### 2) Improve statistics dictionary
+### 2) [DONE] Improve statistics dictionary
 
-### 3) Expand statistics dictionary
+### 3) [DONE] Extend statistics dictionary
 
 ***
 
