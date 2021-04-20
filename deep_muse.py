@@ -245,8 +245,20 @@ full_path_to_processed_dataset = "/content/Fuzzy-Chords-Dataset" #@param {type:"
 # Writing dataset to memory
 cho_list_f, mel_list_f = TMIDI.Tegridy_Pickle_File_Loader(full_path_to_processed_dataset)
 
+"""# Load/re-load your custom melody here"""
+
+#@title (Optional) Load your own melody here
+
+#@markdown NOTE: Loading your own melody will overwrite the generated melody.
+full_path_to_melody_MIDI_file = "/content/tegridy-tools/tegridy-tools/seed.mid" #@param {type:"string"}
+
+T, M, C = TMIDI.Optimus_MIDI_TXT_Processor(full_path_to_melody_MIDI_file)
+song = M
+
+"""# Generate"""
+
 #@title Generate chords
-minimum_notes_per_chord = 7 #@param {type:"slider", min:1, max:10, step:1}
+minimum_notes_per_chord = 5 #@param {type:"slider", min:1, max:10, step:1}
 
 print('Generating chords for the melody. Please wait...')
 print('Sorting chords...')
@@ -256,10 +268,10 @@ le = []
 hp = []
 for c in auto.tqdm(cho_list_f):
   if len(c) >= minimum_notes_per_chord:
-    c.sort(reverse=True, key=lambda x: x[4])
-    chor.append(c)
-    le.append(len(c))
-    hp.append(c[0][4])
+      c.sort(reverse=True, key=lambda x: x[4])
+      chor.append(c)
+      le.append(len(c))
+      hp.append(c[0][4])
 
 print('Looking for the matching chords...')
 
