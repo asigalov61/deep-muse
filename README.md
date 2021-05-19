@@ -23,16 +23,6 @@
 
 ***
 
-### Exclusive rendered samples: https://soundcloud.com/aleksandr-sigalov-61/sets/deep-muse/s-tgbZAXvRlaH
-
-***
-
-### NOTE: Accompaniment is not yet integrated so please use: https://github.com/asigalov61/Google-Magenta-Piano-Transformer-Colab
-
-### Choices are: Google Magenta Piano Transformer or Multi-Instrumental MusicVAE
-
-***
-
 ### Project Los Angeles
 
 ### Tegridy Code 2021
