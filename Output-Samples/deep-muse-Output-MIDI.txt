@@ -1,0 +1,27 @@
+====================================================================================================
+Deep-Muse Text to Music Generator
+Starting up...
+====================================================================================================
+100%
+8/8 [00:11<00:00, 1.48s/it]
+['i', 'love', 'you', 'e', 'ven', 'more']
+['i', 'am', 'in', 'love', 'with', 'you']
+['go', 'al', 'ways', 'on', 'my', 'mind,']
+['i', 'feel', 'a', 'bout', 'you']
+["i'm", 'all', 'out', 'of', 'love', "i'm", 'so', 'lost', 'with', 'out', 'you', 'i']
+['know', 'you', 'were', 'right', 'belie', 'ving', 'for', 'so', 'long']
+['long', "i'm", 'all', 'out', 'of', 'love', 'what', 'am', 'i', 'wit', 'hout']
+["can't", 'be', 'too', 'late', 'to', 'say', 'that', 'i', 'was', 'so', 'wrong', "i'mall"]
+
+====================================================================================================
+[102076743, 139069, 518605, 706, 2753, 3, 46528, 63, 61021, 83]
+====================================================================================================
+('i love you e ven more\n'
+ 'i am in love with you\n'
+ 'go al ways on my mind,\n'
+ 'i feel a bout you\n'
+ "i'm all out of love i'm so lost with out you i\n"
+ 'know you were right belie ving for so long\n'
+ "long i'm all out of love what am i wit hout\n"
+ "can't be too late to say that i was so wrong i'mall\n")
+====================================================================================================
