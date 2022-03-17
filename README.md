@@ -14,6 +14,11 @@
 
 ***
 
+## UPDATE 03/17/2022: Please see Morpheus CLMP Model for more capable and more advanced Language-to-Music implementation.
+## https://github.com/asigalov61/Morpheus/tree/main/Model/CLMP
+
+***
+
 ### Follow or participate in the development via Google Colab:
 
 [![Open In Colab][colab-badge]][colab-notebook]
